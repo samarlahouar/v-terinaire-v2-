@@ -1,0 +1,627 @@
+
+
+
+body{
+    
+    height: 100vh;
+    background-image:url('images/imageBG.png');
+    background:  blur(8px);;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width: 100vw;
+
+
+}
+section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+.forme{
+    margin: auto;
+    background:transparent;
+    border: 2px solid;
+    padding: 1rem;
+    width: 450px;
+    border-radius: 6px;
+}
+h1{
+    margin: 1rem 1.5rem;
+    color: black;
+    font-size:100px;
+}
+h2{
+    text-align: center;
+    margin: 1rem 1.5rem;
+    color: rgb(0, 0, 0);
+    font-size:50px;
+}
+.forme .input-box input{
+    width: 100%;
+    height: 2.25rem;
+    margin: 2rem 0 0 0 ;
+    position:relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: 600;
+}
+
+
+.buttons{
+    display: inline-block;
+    padding:10px 60px
+}
+.buttons button{
+    margin-inline:10px;
+    background-color:white;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.blur-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value for transparency */
+    backdrop-filter: blur(1px); /* Adjust the blur radius */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    padding: 20px;
+    position: relative;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eaae00;
+    padding-inline: 100px;
+    padding-block: 10px; 
+    padding-right: 135px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    size: 70px;
+}
+nav ul li {
+    margin-inline:35px ;
+   
+    
+}
+nav a{
+    color:#fff;
+    /* Changer la couleur du texte des éléments de coordonnées */
+    text-decoration: none;
+    font-family: ita;
+    font-size: 180%;
+
+}
+
+
+.search-bar input[type="text"] {
+    padding: 15px;
+    border: none;
+
+}
+
+
+.search-bar {
+    display: inline-flex;
+}
+.search-bar img{
+    width: 30px;
+}
+.search-bar img:hover{
+    cursor: pointer;
+}
+
+.search-bar button{
+    background-color: #00bfcb;
+    box-shadow: -2px 5px rgba(128, 128, 128, 0.173);
+    border: none;
+}
+.search-bar input{
+    box-shadow: -2px 5px rgba(128, 128, 128, 0.173);
+    background-color: #ffc300;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+     background-color: #ffc300; 
+    align-items: center;
+    height: 90vh;
+}
+.section1 img{
+    width: 360px;
+}
+
+.section1 h1 {
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.section1 .par {
+  
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 34px;
+    /* Ajustez la taille de la police du paragraphe selon vos besoins */
+    color: #fff;
+
+}
+
+.section1 .cn {
+    background: #00bfcb;
+    border: solid 3px #00bfcb;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+   padding: 2%;
+   
+
+}
+
+.section1 .cn a {
+    text-decoration: none;
+    color: rgb(240, 237, 237);
+    transition: .3s ease;
+}
+
+.section1 .cne {
+    background: #00bdcb00;
+    border: solid 3px white;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 2%;
+    margin-left: 3%;
+
+}
+
+.section1 .cne a {
+    text-decoration: none;
+    color: rgb(245, 242, 242);
+    transition: .3s ease;
+   
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+  background-color: #fff; 
+    align-items: center;
+    height: 100vh;
+}
+.section2 img1{
+    width: 360px;
+}
+.section2 h2 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 150px;
+    
+    letter-spacing: 2px;
+    
+
+    
+}
+
+.h2 {
+    margin-top: 50%;
+    text-align: center;
+
+}
+.para {
+   
+    padding-left: 150px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 34px;
+
+}
+.section2 .v2 {
+    width: 160px;
+    height: 50px;
+    background: #ffc300;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+.section2 .v2 a {
+    text-decoration: none;
+    color: rgb(240, 237, 237);
+    transition: .3s ease;
+}
+
+.section3{
+    background-color: #ffc300;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section3 .doc3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.section3 .doc3 h4 {
+    font-size: 60px;
+    color: #fff;
+}
+.section3 .doc3 .paragraphe {
+    font-size: 40px;
+    color: #fff;
+
+}
+.section3 .image{
+    display: flex;
+}
+.section3 .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline:10px ;
+    color: #fff;
+
+}
+.section3 .card .pg1{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section3 .card h3 {
+    font-size: 40px;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+  background-color: #fff; 
+    align-items: center;
+    height: 100vh;
+}
+
+.section4 img1{
+    width: 360px;
+}
+.section4 h2 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 150px;
+    
+    letter-spacing: 2px;
+    
+
+    
+}
+
+ .section4 .h2 {
+    margin-top: 50%;
+    text-align: center;
+
+}
+.section4 .para {
+   
+    padding-left: 150px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 34px;
+
+}
+.section4 .v2 {
+    width: 160px;
+    height: 50px;
+    background: #ffc300;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+.section4 .v2 a {
+    text-decoration: none;
+    color: rgb(240, 237, 237);
+    transition: .3s ease;
+}
+.btnservice{
+    float: right;
+}
+.section5{
+    background-color: #ffc300;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section5 .doc3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.section5 .doc3 h4 {
+    font-size: 60px;
+    color: #fff;
+}
+.section5 .doc3 .paragraphe {
+    font-size: 40px;
+    color: #fff;
+
+}
+.section5 .image{
+    display: flex;
+}
+.section5 .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline:10px ;
+    color: #fff;
+
+}
+.section5 .image22{
+    display: flex;
+}
+.section5 .cards{
+    display: flex;
+  
+    flex-direction: column;
+    margin-inline:60px;
+    margin-top: 30%;
+    
+}
+
+.section5 .card .pg1{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section5 .card h3 {
+    font-size: 40px;
+}
+
+.section5 .mon-bouton {
+    background-color:#00bfcb; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 30px 40px; /* Espacement interne du bouton */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Supprime la bordure par défaut du bouton */
+    border-radius: 20px; /* Arrondi les coins du bouton */
+    cursor: pointer; /* Change le curseur au survol du bouton */
+
+  }
+
+  .section5 .buton{
+    display: flex;
+}
+.section5 .mon-bouton{
+    display: flex;
+  
+    flex-direction: column;
+    margin-inline:110px;
+    margin-block-start: -30%;
+    
+}
+
+.section6{
+    background-color: #fff;
+    height:120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social{
+    display: inline-flex;
+    margin-left:-12%;
+}
+
+.SocialImg {
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:4%;
+    background-color: #ffc300;
+    border-radius:50%;
+    margin-inline: 4%;
+}
+.SocialImg img {
+    width:20px;
+}
+.section6 .doc3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.section6 .doc3 h4 {
+    font-size: 60px;
+    color:black;
+}
+.section6 .doc3 .paragraphe {
+    font-size: 40px;
+    color: black;
+
+}
+.section6 .image{
+    display: flex;
+}
+.section6 .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline:10px ;
+    color:black;
+
+}
+.section6 .card .pg1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section6 .card h3 {
+    font-size: 40px;
+}
+.section7{
+    background-color: #fff;
+    height:120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.section8{
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section8 .doc3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.section8 .doc3 h4 {
+    font-size: 60px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section8 .doc3 .paragraphe {
+    font-size: 35px;
+    color:black;
+
+}
+.section8 .image{
+    display: flex;
+    
+}
+.section8 .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline:20px ;
+    color:black;
+    
+
+}
+footer {
+    background-color: #282725;
+    display: flex; 
+    padding: 20px;    
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .paragraphe2 .list{
+color: #fff;
+display: flex;
+flex-direction: column;
+
+}
+footer  h3,footer p{
+    color: #fff;
+}
+footer .paragraphe2{
+    margin-left: 20px;
+}
+footer .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2{
+    background-color: #fff;
+}
+footer .left{
+    text-align: end;
+}
+.socialFooter{
+    margin-right: 30px;
+    margin-block: 10px;
+}
